@@ -1,0 +1,22 @@
+{
+  "name": "workout-planner",
+  "version": "1.0.0",
+  "description": "Aplicativo de linha de comando (CLI) para montar treinos personalizados, com catálogo de exercícios e histórico de treinos persistidos em MongoDB via Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "cli",
+    "javascript"
+  ],
+  "author": "Luiz Otávio Faquim de Oliveira",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.6.0"
+  }
+}
